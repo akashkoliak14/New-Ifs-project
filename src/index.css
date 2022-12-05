@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700");
+.col-md-offset-right-1, .col-lg-offset-right-1 {
+  margin-right: 8.33333333%;
+}
+
+.cool-link::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color:#61f2f5;
+  transition: width .3s;
+}
+.cool-link:hover::after{
+
+  width: 100%;
+  transition: width .3s
+}
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.row.m0 {
+  margin: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+
+body {
+  line-height: 28px;
+  font-size: 15px;
+  font-family: "Arial", sans-serif;
+  font-weight: 500;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#success {
+  display: none;
+}
+
+#error {
+  display: none;
+}
+
+.display_table {
+  display: table;
+  width: 100%;
+}
+
+.display_table_row {
+  display: table-row;
+}
+
+.display_table_cell {
+  display: table-cell;
+  float: none !important;
+}
+
+.p_100 {
+  padding: 100px 0px;
+}
+
+iframe {
+  border: none;
+}
+
+i:before {
+  margin-left: 0px !important;
+}
+
+/* Main title css
+============================================================================================ */
+.c_title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.c_title img {
+  padding-bottom: 30px;
+}
+
+.c_title h6 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7c8d93;
+  padding-bottom: 10px;
+}
+
+.c_title h2 {
+  font-size: 48px;
+  color: #0b1033;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 500;
+}
+
+.l_title {
+  padding-bottom: 55px;
+}
+
+.l_title img {
+  padding-bottom: 30px;
+}
+
+.l_title h6 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7c8d93;
+  padding-bottom: 10px;
+}
+
+.l_title h2 {
+  font-size: 48px;
+  color: #0b1033;
+  font-family: "Georgia", sans-serif;
+  font-weight: 500;
+}
+
+.l_title h2 span {
+  font-style: italic;
+  color: #6fbbfe;
+}

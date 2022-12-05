@@ -1,0 +1,48 @@
+.container{
+    background-image: url('../img/banner/banner-bg.png');
+    height: 100vh;
+    width: 100%;
+    margin-right: 0%;
+  
+    background: cover;
+    /* background-attachment: fixed; */
+  background-repeat: repeat-x;
+    /* background-position:left top; */
+}
+h2{
+	color: rgb(57, 56, 57)!important;
+	margin-top: 10px;
+	font-size: 25px;
+	margin-bottom: 10px;
+	min-width: 64px;
+	box-sizing: border-box;
+	font-family: "Comfortaa"!important;
+	font-weight: 400;
+	border-radius: 4px;
+	letter-spacing: 0.02857em;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 5px rgba(115, 198, 239, 0.3);
+	}
+
+h1{
+	color:  #070000  !important;
+	margin-top: 10px;
+	font-size: 75px !important;
+	margin-bottom: 10px;
+	min-width: 74px;
+	box-sizing: border-box;
+	font-family: "Comfortaa"!important;
+	font-weight: 400;
+	border-radius: 4px;
+	letter-spacing: 0.02857em;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	}
+	#contact{
+		background-image: url("");
+	}
+    .banner_inner_test{
+       padding: 100px;
+       padding-left: 0px;
+     
+    }
